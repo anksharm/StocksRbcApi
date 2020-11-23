@@ -25,7 +25,7 @@ create database rbc_stockapi
 
 ```bash
 mvn package
-java -jar target/bc_stockdemo-0.0.1-SNAPSHOT.jar
+java -jar target/rbc_stockdemo-0.0.1-SNAPSHOT.jar
 
 ```
 
