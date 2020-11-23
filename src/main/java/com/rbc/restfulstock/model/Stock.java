@@ -3,16 +3,17 @@ package com.rbc.restfulstock.model;
 import javax.persistence.*;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
+import java.util.Date;
 
 
 @Entity
 @Table(name = "stock")
 public class Stock {
     @Id
-    @GeneratedValue(generator = "question_generator")
+    @GeneratedValue(generator = "id_generator")
     @SequenceGenerator(
-            name = "question_generator",
-            sequenceName = "question_sequence",
+            name = "id_generator",
+            sequenceName = "id_sequence",
             initialValue = 1000
     )
     private Long id;
@@ -22,10 +23,10 @@ public class Stock {
     @NotBlank
     @Size(min = 1, max = 5)
     private String stock;
-//
-//    @Temporal(TemporalType.DATE)
-//    @Column(name = "last_business_date", nullable = false)
-//    private Date lastBusinessDate;
+
+    @Temporal(TemporalType.DATE)
+    @Column(name = "date", nullable = false)
+    private Date lastBusinessDate;
 
     private float open;
     private float high;
@@ -55,8 +56,6 @@ public class Stock {
     private float percentReturnNextWeek;
 
 
-
-
     public Long getId() {
         return id;
     }
@@ -81,13 +80,13 @@ public class Stock {
         this.stock = stock;
     }
 
-//    public Date getLastBusinessDate() {
-//        return lastBusinessDate;
-//    }
-//
-//    public void setLastBusinessDate(Date lastBusinessDate) {
-//        this.lastBusinessDate = lastBusinessDate;
-//    }
+    public Date getLastBusinessDate() {
+        return lastBusinessDate;
+    }
+
+    public void setLastBusinessDate(Date lastBusinessDate) {
+        this.lastBusinessDate = lastBusinessDate;
+    }
 
     public float getOpen() {
         return open;

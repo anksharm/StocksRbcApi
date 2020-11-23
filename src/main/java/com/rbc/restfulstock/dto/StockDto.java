@@ -5,10 +5,8 @@ public class StockDto {
     private Long id;
     private int quarter;
     private String stock;
-//
-//    @Temporal(TemporalType.DATE)
-//    @Column(name = "last_business_date", nullable = false)
-//    private Date lastBusinessDate;
+
+    private String lastBusinessDate;
 
     private float open;
     private float high;
@@ -28,6 +26,14 @@ public class StockDto {
     private float percentPriceChangeNextWeek;
     private int daysToNextDivident;
     private float percentReturnNextWeek;
+
+    public String getLastBusinessDate() {
+        return lastBusinessDate;
+    }
+
+    public void setLastBusinessDate(String lastBusinessDate) {
+        this.lastBusinessDate = lastBusinessDate;
+    }
 
     public StockDto() {
     }

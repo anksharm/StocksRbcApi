@@ -18,7 +18,6 @@ import javax.validation.Valid;
 import java.net.URI;
 import java.util.ArrayList;
 import java.util.List;
-
 /**
  * Description: Get and save Stock details to the DB.
  */
@@ -87,13 +86,11 @@ public class StockController {
     public ResponseEntity<Object> insertStock(@Valid @RequestBody StockDto stockDto) {
         try {
             StockDto stockDtoSaved = stockService.saveDto(stockDto);
-            URI location = ServletUriComponentsBuilder.fromCurrentRequest().path("/{id}")
-                    .buildAndExpand(stockDto.getId()).toUri();
             logger.info("Successfully Posted ");
             return new ResponseEntity<Object>(stockDtoSaved, HttpStatus.OK);
 
         } catch (ErrorMessages errorMessages) {
-            logger.error("No record Found for insertStock() -" + errorMessages.getMessage());
+            logger.error("No record inserted for insertStock() -" + errorMessages.getMessage());
             return new ResponseEntity<Object>(errorMessages.getMessage(), HttpStatus.BAD_REQUEST);
         }
     }
@@ -105,14 +102,19 @@ public class StockController {
      * @throws Exception
      */
     @PostMapping("/stocks/bulkupload")
-    public List<Stock> bulkupload(@RequestParam("file") MultipartFile dataFile) throws Exception {
+    public ResponseEntity<Object>  bulkupload(@RequestParam("file") MultipartFile dataFile) throws Exception {
 
         if (dataFile == null) {
             logger.error("datafile is null for buklupload");
-            throw new RuntimeException("You must select the a file for uploading");
+            throw new ErrorMessages("You must select the a file param for uploading");
         }
-        List<Stock> stockList = stockService.getStockList(dataFile);
-        stockRepository.saveAll(stockList);
-        return stockList;
+
+        try {
+            List<StockDto> stockDtoList = stockService.saveBulkUpload(dataFile);
+            return new ResponseEntity<Object>(stockDtoList, HttpStatus.OK);
+        } catch (ErrorMessages errorMessages) {
+            logger.error("No record Inserted for buklUpload() -" + errorMessages.getMessage());
+            return new ResponseEntity<Object>(errorMessages.getMessage(), HttpStatus.BAD_REQUEST);
+        }
     }
 }

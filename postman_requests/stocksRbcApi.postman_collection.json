@@ -1,0 +1,100 @@
+{
+	"info": {
+		"_postman_id": "959a1ef7-65eb-4f8f-998b-85af513fc56c",
+		"name": "stocksRbcApi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:9000/stocks",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/stocks",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"stocks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SaveStockOne",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"quarter\": 1,\r\n    \"stock\": \"AA\",\r\n    \"lastBusinessDate\": \"01/07/2011\",\r\n    \"open\": 15.82,\r\n    \"high\": 16.72,\r\n    \"low\": 15.78,\r\n    \"close\": 16.42,\r\n    \"volume\": 2.39655616E8,\r\n    \"percentPriceChange\": 3.79267,\r\n    \"percentVolChangeLastWeek\": 0.0,\r\n    \"volPreveiousWeek\": 0.0,\r\n    \"openNextWeek\": 16.71,\r\n    \"closeNextWeek\": 15.97,\r\n    \"percentPriceChangeNextWeek\": -4.42849,\r\n    \"daysToNextDivident\": 26,\r\n    \"percentReturnNextWeek\":0.0\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/stocks",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"stocks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "save stocks usig file",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "multipart/form-data",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/Users/sharmaa/Documents/Me/resume/RBC_data/dow_jones_index/dow_jones_index.data"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/stocks/bulkupload",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"stocks",
+						"bulkupload"
+					],
+					"query": [
+						{
+							"key": "file",
+							"value": null,
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
