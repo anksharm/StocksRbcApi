@@ -9,10 +9,10 @@ import javax.validation.constraints.Size;
 @Table(name = "stock")
 public class Stock {
     @Id
-    @GeneratedValue(generator = "question_generator")
+    @GeneratedValue(generator = "id_generator")
     @SequenceGenerator(
-            name = "question_generator",
-            sequenceName = "question_sequence",
+            name = "id_generator",
+            sequenceName = "id_sequence",
             initialValue = 1000
     )
     private Long id;
