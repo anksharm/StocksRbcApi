@@ -80,7 +80,7 @@ Alternatively, you can run the app without packaging it using -
 mvn spring-boot:run
 ```
 (server.port =9000) is set up at application.properties. You can change that if needed. 
-The app will start running at <http://localhost:9000>.
+The app is running at for get - <http://localhost:9000/stocks>.
 
 ## Explore Rest APIs
 
