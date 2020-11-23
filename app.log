@@ -1,0 +1,159 @@
+2020-11-22 19:04:29,551 INFO com.rbc.restfulstock.Application [main] Starting Application using Java 13.0.1 on BT-01070 with PID 16760 (C:\Users\sharmaa\Documents\StocksDemo\StocksDepo\target\classes started by sharmaa in C:\Users\sharmaa\Documents\StocksDemo\StocksDepo)
+2020-11-22 19:04:29,555 INFO com.rbc.restfulstock.Application [main] No active profile set, falling back to default profiles: default
+2020-11-22 19:04:30,352 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-11-22 19:04:30,352 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-22 19:04:30,477 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-11-22 19:04:30,566 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-11-22 19:04:30,593 INFO org.hibernate.Version [task-1] HHH000412: Hibernate ORM core version 5.4.23.Final
+2020-11-22 19:04:30,652 INFO org.hibernate.annotations.common.Version [task-1] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2020-11-22 19:04:30,705 INFO com.zaxxer.hikari.HikariDataSource [task-1] HikariPool-1 - Starting...
+2020-11-22 19:04:30,800 INFO com.zaxxer.hikari.HikariDataSource [task-1] HikariPool-1 - Start completed.
+2020-11-22 19:04:30,808 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-11-22 19:04:31,388 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-11-22 19:04:31,855 INFO com.rbc.restfulstock.Application [main] Started Application in 2.569 seconds (JVM running for 3.018)
+2020-11-22 19:04:56,457 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-9000-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-22 19:05:01,203 INFO com.rbc.restfulstock.controller.StockController [http-nio-9000-exec-3] No record Found for GetStocksByName()
+2020-11-22 21:23:15,121 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h12m44s114ms447µs463ns).
+2020-11-22 21:40:02,480 INFO com.rbc.restfulstock.Application [main] Starting Application using Java 13.0.1 on BT-01070 with PID 6452 (C:\Users\sharmaa\Documents\StocksDemo\StocksDepo\target\classes started by sharmaa in C:\Users\sharmaa\Documents\StocksDemo\StocksDepo)
+2020-11-22 21:40:02,482 INFO com.rbc.restfulstock.Application [main] No active profile set, falling back to default profiles: default
+2020-11-22 21:40:03,261 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-11-22 21:40:03,261 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-22 21:40:03,344 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-11-22 21:40:03,438 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-11-22 21:40:03,466 INFO org.hibernate.Version [task-1] HHH000412: Hibernate ORM core version 5.4.23.Final
+2020-11-22 21:40:03,531 INFO org.hibernate.annotations.common.Version [task-1] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2020-11-22 21:40:03,590 INFO com.zaxxer.hikari.HikariDataSource [task-1] HikariPool-1 - Starting...
+2020-11-22 21:40:03,685 INFO com.zaxxer.hikari.HikariDataSource [task-1] HikariPool-1 - Start completed.
+2020-11-22 21:40:03,693 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-11-22 21:40:04,257 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-11-22 21:40:04,704 INFO com.rbc.restfulstock.Application [main] Started Application in 2.463 seconds (JVM running for 2.922)
+2020-11-22 21:40:18,979 INFO com.ApplicationTests [main] Starting ApplicationTests using Java 13.0.1 on BT-01070 with PID 14892 (started by sharmaa in C:\Users\sharmaa\Documents\StocksDemo\StocksDepo)
+2020-11-22 21:40:18,982 INFO com.ApplicationTests [main] No active profile set, falling back to default profiles: default
+2020-11-22 21:40:20,221 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-11-22 21:40:20,221 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-22 21:40:20,329 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-11-22 21:40:20,550 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-11-22 21:40:20,615 INFO org.hibernate.Version [task-1] HHH000412: Hibernate ORM core version 5.4.23.Final
+2020-11-22 21:40:20,723 INFO org.hibernate.annotations.common.Version [task-1] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2020-11-22 21:40:20,812 INFO com.zaxxer.hikari.HikariDataSource [task-1] HikariPool-1 - Starting...
+2020-11-22 21:40:20,965 INFO com.zaxxer.hikari.HikariDataSource [task-1] HikariPool-1 - Start completed.
+2020-11-22 21:40:20,979 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-11-22 21:40:21,677 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-11-22 21:40:22,492 INFO com.ApplicationTests [main] Started ApplicationTests in 3.806 seconds (JVM running for 4.63)
+2020-11-22 21:40:22,733 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-auto-1-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-22 21:40:23,181 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2020-11-22 21:40:23,195 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2020-11-22 21:41:09,298 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-9000-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-22 21:41:09,358 INFO com.rbc.restfulstock.controller.StockController [http-nio-9000-exec-1] No record Found for GetStocksByName()
+2020-11-22 22:26:23,017 INFO com.ApplicationTests [main] Starting ApplicationTests using Java 13.0.1 on BT-01070 with PID 20180 (started by sharmaa in C:\Users\sharmaa\Documents\StocksDemo\StocksDepo)
+2020-11-22 22:26:23,018 INFO com.ApplicationTests [main] No active profile set, falling back to default profiles: default
+2020-11-22 22:26:24,264 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-11-22 22:26:24,264 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-22 22:26:24,390 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-11-22 22:26:24,625 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-11-22 22:26:24,689 INFO org.hibernate.Version [task-1] HHH000412: Hibernate ORM core version 5.4.23.Final
+2020-11-22 22:26:24,796 INFO org.hibernate.annotations.common.Version [task-1] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2020-11-22 22:26:24,885 INFO com.zaxxer.hikari.HikariDataSource [task-1] HikariPool-1 - Starting...
+2020-11-22 22:26:25,041 INFO com.zaxxer.hikari.HikariDataSource [task-1] HikariPool-1 - Start completed.
+2020-11-22 22:26:25,056 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-11-22 22:26:25,748 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-11-22 22:26:26,644 INFO com.ApplicationTests [main] Started ApplicationTests in 3.903 seconds (JVM running for 4.738)
+2020-11-22 22:26:26,998 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2020-11-22 22:26:27,004 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2020-11-22 22:51:28,760 ERROR com.rbc.restfulstock.service.StockService [http-nio-9000-exec-5] Error Message for SaveDto() Could not commit JPA transaction; nested exception is javax.persistence.RollbackException: Error while committing the transaction
+2020-11-22 22:51:28,761 ERROR com.rbc.restfulstock.controller.StockController [http-nio-9000-exec-5] No record Found for insertStock() -Could not commit JPA transaction; nested exception is javax.persistence.RollbackException: Error while committing the transaction
+2020-11-22 22:52:15,640 INFO com.ApplicationTests [main] Starting ApplicationTests using Java 13.0.1 on BT-01070 with PID 14148 (started by sharmaa in C:\Users\sharmaa\Documents\StocksDemo\StocksDepo)
+2020-11-22 22:52:15,643 INFO com.ApplicationTests [main] No active profile set, falling back to default profiles: default
+2020-11-22 22:52:17,327 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-11-22 22:52:17,328 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-22 22:52:17,483 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-11-22 22:52:17,774 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-11-22 22:52:17,862 INFO org.hibernate.Version [task-1] HHH000412: Hibernate ORM core version 5.4.23.Final
+2020-11-22 22:52:18,018 INFO org.hibernate.annotations.common.Version [task-1] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2020-11-22 22:52:18,149 INFO com.zaxxer.hikari.HikariDataSource [task-1] HikariPool-1 - Starting...
+2020-11-22 22:52:18,349 INFO com.zaxxer.hikari.HikariDataSource [task-1] HikariPool-1 - Start completed.
+2020-11-22 22:52:18,368 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-11-22 22:52:19,583 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-11-22 22:52:20,750 INFO com.ApplicationTests [main] Started ApplicationTests in 5.524 seconds (JVM running for 6.582)
+2020-11-22 22:52:21,088 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-auto-1-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-22 22:52:21,274 ERROR com.rbc.restfulstock.service.StockService [http-nio-auto-1-exec-1] Error Message for SaveDto() Could not commit JPA transaction; nested exception is javax.persistence.RollbackException: Error while committing the transaction
+2020-11-22 22:52:21,275 ERROR com.rbc.restfulstock.controller.StockController [http-nio-auto-1-exec-1] No record Found for insertStock() -Could not commit JPA transaction; nested exception is javax.persistence.RollbackException: Error while committing the transaction
+2020-11-22 22:52:21,551 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2020-11-22 22:52:21,567 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2020-11-22 22:54:11,189 INFO com.rbc.restfulstock.controller.StockController [http-nio-9000-exec-7] Successfully Posted 
+2020-11-22 22:54:32,221 INFO com.rbc.restfulstock.controller.StockController [http-nio-9000-exec-9] Successfully Posted 
+2020-11-22 22:55:21,484 INFO com.rbc.restfulstock.Application [main] Starting Application using Java 13.0.1 on BT-01070 with PID 15688 (C:\Users\sharmaa\Documents\StocksDemo\StocksDepo\target\classes started by sharmaa in C:\Users\sharmaa\Documents\StocksDemo\StocksDepo)
+2020-11-22 22:55:21,487 INFO com.rbc.restfulstock.Application [main] No active profile set, falling back to default profiles: default
+2020-11-22 22:55:22,673 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-11-22 22:55:22,674 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-22 22:55:22,802 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-11-22 22:55:22,934 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-11-22 22:55:22,977 INFO org.hibernate.Version [task-1] HHH000412: Hibernate ORM core version 5.4.23.Final
+2020-11-22 22:55:23,100 INFO org.hibernate.annotations.common.Version [task-1] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2020-11-22 22:55:23,210 INFO com.zaxxer.hikari.HikariDataSource [task-1] HikariPool-1 - Starting...
+2020-11-22 22:55:23,437 INFO com.zaxxer.hikari.HikariDataSource [task-1] HikariPool-1 - Start completed.
+2020-11-22 22:55:23,449 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-11-22 22:55:24,401 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-11-22 22:55:24,883 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2020-11-22 22:55:24,891 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2020-11-22 22:55:24,892 INFO org.apache.catalina.core.StandardService [main] Stopping service [Tomcat]
+2020-11-22 22:55:24,919 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9000 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9000 or configure this application to listen on another port.
+
+2020-11-22 22:55:28,803 INFO com.rbc.restfulstock.controller.StockController [http-nio-9000-exec-10] Successfully Posted 
+2020-11-22 22:55:50,022 INFO com.rbc.restfulstock.Application [main] Starting Application using Java 13.0.1 on BT-01070 with PID 1940 (C:\Users\sharmaa\Documents\StocksDemo\StocksDepo\target\classes started by sharmaa in C:\Users\sharmaa\Documents\StocksDemo\StocksDepo)
+2020-11-22 22:55:50,025 INFO com.rbc.restfulstock.Application [main] No active profile set, falling back to default profiles: default
+2020-11-22 22:55:51,212 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-11-22 22:55:51,213 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-22 22:55:51,328 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-11-22 22:55:51,458 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-11-22 22:55:51,503 INFO org.hibernate.Version [task-1] HHH000412: Hibernate ORM core version 5.4.23.Final
+2020-11-22 22:55:51,596 INFO org.hibernate.annotations.common.Version [task-1] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2020-11-22 22:55:51,665 INFO com.zaxxer.hikari.HikariDataSource [task-1] HikariPool-1 - Starting...
+2020-11-22 22:55:51,852 INFO com.zaxxer.hikari.HikariDataSource [task-1] HikariPool-1 - Start completed.
+2020-11-22 22:55:51,874 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-11-22 22:55:52,890 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-11-22 22:55:53,467 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2020-11-22 22:55:53,475 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2020-11-22 22:55:53,477 INFO org.apache.catalina.core.StandardService [main] Stopping service [Tomcat]
+2020-11-22 22:55:53,502 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9000 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9000 or configure this application to listen on another port.
+
+2020-11-22 22:57:09,320 INFO com.ApplicationTests [main] Starting ApplicationTests using Java 13.0.1 on BT-01070 with PID 17784 (started by sharmaa in C:\Users\sharmaa\Documents\StocksDemo\StocksDepo)
+2020-11-22 22:57:09,323 INFO com.ApplicationTests [main] No active profile set, falling back to default profiles: default
+2020-11-22 22:57:11,074 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-11-22 22:57:11,074 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-22 22:57:11,262 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-11-22 22:57:11,572 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-11-22 22:57:11,657 INFO org.hibernate.Version [task-1] HHH000412: Hibernate ORM core version 5.4.23.Final
+2020-11-22 22:57:11,817 INFO org.hibernate.annotations.common.Version [task-1] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2020-11-22 22:57:11,936 INFO com.zaxxer.hikari.HikariDataSource [task-1] HikariPool-1 - Starting...
+2020-11-22 22:57:12,149 INFO com.zaxxer.hikari.HikariDataSource [task-1] HikariPool-1 - Start completed.
+2020-11-22 22:57:12,177 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-11-22 22:57:13,227 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-11-22 22:57:14,374 INFO com.ApplicationTests [main] Started ApplicationTests in 5.478 seconds (JVM running for 6.549)
+2020-11-22 22:57:14,718 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-auto-1-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-22 22:57:15,144 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2020-11-22 22:57:15,160 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
