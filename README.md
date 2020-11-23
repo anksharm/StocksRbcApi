@@ -7,7 +7,7 @@
 **1. Clone the application**
 
 ```bash
-
+https://github.com/anksharm/StocksRbcApi.git
 ```
 
 **2. Create Postgres database**
