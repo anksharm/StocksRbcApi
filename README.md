@@ -47,6 +47,13 @@ Data access layer between the services and using the db layer. Makes for a bette
 
 # Sample REST CRUD API with Spring Boot, Postgres and JPA
 
+## Technical specification
++ Spring boot
++ Maven built
++ Java 8
++ Postgres DB
++ Junits
+
 ## Steps to Setup
 
 **1. Clone the application**
